@@ -1,4 +1,4 @@
-name: Ask question
+name: Add additional data fields to event and display in popver
 description: Ask react-big-schedule related question
 labels: [question]
 body:
@@ -12,14 +12,13 @@ body:
         - label: I've verified that  I am running react-big-schedule version **4.2.0** or above.
           required: true
         - label: I've searched the existing issues and discussions for a similar question
-        - label: I've provided relevant code snippets or error messages
-        - label: I've included steps to reproduce the issue
         - label: I've checked the browser console for any errors
         - label: I've tested the issue with the latest version of react-big-schedule
   - type: textarea
     id: question
     attributes:
       label: Please make sure the question is worded well enough to be understood
-      placeholder: Provide any additional information and as much context and examples as possible
+      placeholder: Is there a way to add additional attributes to events and resources (e. g. for an Event a field with hours until next event for same resource happens, or total sales amount mad by this event) and display those information in popover.
+      Ive went through doucmenation but could not find any answer for this question.
     validations:
       required: true
